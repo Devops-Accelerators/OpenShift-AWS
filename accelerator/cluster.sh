@@ -7,7 +7,7 @@ TEMPURL="https://aws-quickstart.s3.amazonaws.com/quickstart-redhat-openshift/tem
 
 SSHKEY="devops-frank-vss"
 
-REDIP=$(curl ifconfig.me)"/30"
+REDIP=$(curl ifconfig.me)"/32"
 
 aws cloudformation create-stack --region $REGION  \
  --stack-name $SNAME  \
