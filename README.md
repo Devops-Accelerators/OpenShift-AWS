@@ -8,5 +8,5 @@ This guide helps you to set up a Red Hat OpenShift Container Platform on AWS. Th
    Ex: " export PASSWORD=<your-password> >> ~/.bashrc " (or ~/.bash_profile [osx users])
   ```
  # Creating Stack on Cloudformation
- To start the stack creation process run the script "cluster.sh" in the directory accelerator.
+ To start the stack creation process run the script "create-stack.sh" in the directory "accelerator".
   
