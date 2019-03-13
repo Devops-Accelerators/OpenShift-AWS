@@ -1,5 +1,5 @@
 # OpenShift On AWS
-This guide helps you to set up a Red Hat OpenShift Container Platform on AWS. The Quick Start includes AWS CloudFormation templates that build the AWS infrastructure, and then pass that environment to Ansible playbooks to build out the OpenShift environment. The deployment provisions OpenShift master instances, etcd instances, and node instances in a highly available configuration. 
+This guide helps you to set up a Red Hat OpenShift Container Platform on AWS. The accelerator includes AWS CloudFormation templates that build the AWS infrastructure, and then pass that environment to Ansible playbooks to build out the OpenShift environment. The deployment provisions OpenShift master instances, etcd instances, and node instances in a highly available configuration. 
 # Prerequisites
 - Must have [aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/install-linux.html#install-linux-path) installed in system.
 - The accelerator requires a RedHat Subscription. 
